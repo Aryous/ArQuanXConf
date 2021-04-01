@@ -47,6 +47,11 @@ https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter
 https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Filter/Extra/ChinaIP.list, tag=ChinaIP, update-interval=86400, enabled=true
 
 [rewrite_remote]
+# Q-search
+#- Safari 内输入 命令 + 空格 + 关键词 快速指定搜索引擎搜索
+#注：先进入设置更改 Safari 默认搜索为 DuckDuckGO
+https://raw.githubusercontent.com/KOP-XIAO/QuantumultX/master/Q-Search.list, tag=Q-search, update-interval=86400, opt-parser=false, enabled=true
+https://raw.githubusercontent.com/chavyleung/scripts/master/box/rewrite/boxjs.rewrite.quanx.conf, tag=BoxJs, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/Orz-3/Orz-3/master/QuantumultX/TikTok.conf, tag=Tiktok解锁, update-interval=86400, opt-parser=false, enabled=true
 https://raw.githubusercontent.com/Orz-3/QuantumultX/master/YouTube.conf , tag=YouTube去广告, update-interval=86400, opt-parser=false, enabled=false
 https://raw.githubusercontent.com/Orz-3/QuantumultX/master/JS.conf, tag=Script, update-interval=86400, opt-parser=false, enabled=true
