@@ -5,7 +5,6 @@
 hostname = duckduckgo.com
 
 
-
 # 默认Google
 ^https:\/\/duckduckgo.com\/\?q=([^&]+).+ url 302 https://www.google.com/search?q=$1
 
@@ -19,7 +18,7 @@ hostname = duckduckgo.com
 
 # 翻译
 ^https:\/\/duckduckgo.com\/\?q=ydfy\+([^&]+).+ url 302 https://dict.youdao.com/search?q=$1
-^https:\/\/translate.google.com\/\?q=ggfy\+([^&]+).+ url 302 https://translate.google.com/?q=$1
+^https:\/\/duckduckgo.com\/\?q=ggfy\+([^&]+).+ url 302 https://translate.google.com/?q=$1
 
 # 图书
 ^https:\/\/duckduckgo.com\/\?q=db\+([^&]+).+ url 302 https://m.douban.com/search/?query=$1
