@@ -12,7 +12,7 @@ hostname = duckduckgo.com
 # 通用搜索
 ^https:\/\/duckduckgo.com\/\?q=ddg\+([^&]+).+ url 302 https://duckduckgo.com/?ia=about&q=$1
 ^https:\/\/duckduckgo.com\/\?q=bd\+([^&]+).+ url 302 https://www.baidu.com/s?wd=$1
-^https:\/\/cn.bing.com\/\?q=bing+([^&]+).+ url 302 https://cn.bing.com/search?q=$1
+^https:\/\/cn.bing.com\/\?q=bing\+([^&]+).+ url 302 https://cn.bing.com/search?q=$1
 
 # 图片搜索
 ^https:\/\/duckduckgo.com\/\?q=gm\+([^&]+).+ url 302 https://www.google.com/search?&tbm=isch&q=$1
@@ -26,4 +26,4 @@ hostname = duckduckgo.com
 
 # 其他
 ^https:\/\/duckduckgo.com\/\?q=gh\+([^&]+).+ url 302 https://github.com/search?q=$1
-https://www.qcc.com/web\/\?key=qcc\+([^&]+).+ url 302 https://www.qcc.com/web/search?key=$1
+^https:\/\/www.qcc.com\/web\/\?key=qcc\+([^&]+).+ url 302 https://www.qcc.com/web/search?key=$1
