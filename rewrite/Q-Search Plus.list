@@ -5,8 +5,6 @@
 hostname = duckduckgo.com
 
 
-# 默认Google
-^https:\/\/duckduckgo.com\/\?q=([^&]+).+ url 302 https://www.google.com/search?q=$1
 
 # 通用搜索
 ^https:\/\/duckduckgo.com\/\?q=ddg\+([^&]+).+ url 302 https://duckduckgo.com/?ia=about&q=$1
@@ -26,3 +24,6 @@ hostname = duckduckgo.com
 # 其他
 ^https:\/\/duckduckgo.com\/\?q=gh\+([^&]+).+ url 302 https://github.com/search?q=$1
 ^https:\/\/duckduckgo.com\/\?q=qcc\+([^&]+).+ url 302 https://www.qcc.com/web/search?key=$1
+
+# 默认Google
+^https:\/\/duckduckgo.com\/\?q=([^&]+).+ url 302 https://www.google.com/search?q=$1
