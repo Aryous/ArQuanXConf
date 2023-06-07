@@ -1,7 +1,5 @@
 # 内容：OpenAI
-# 数量：11条
 HOST-KEYWORD,openai
-HOST-KEYWORD,ai
 HOST-KEYWORD,openaiapi
 HOST-KEYWORD,openaipublic
 HOST-SUFFIX,sentry.io
